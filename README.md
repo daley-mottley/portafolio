@@ -1,14 +1,13 @@
-
 <div>
-<h1>Hi there 👋...I'm Daley Mottley </h1>
-  <div  align="left">
-    <h1>Let's Work Together 🤝</h1>
+<h1>¡Hola! 👋...Soy Daley Mottley </h1>
+  <div align="left">
+    <h1>¡Trabajemos Juntos! 🤝</h1>
     <ul>
-    <li>- 🤔 I’m looking to help with <strong>AI projects</strong></li>
-    <li>- 💬 Ask me about <strong>Workflow Automations</strong></li>
-     <li>- 🌱 I’m currently learning <strong>Machine Learning</strong></li>
-     <li>- 📫 How to reach me:  [daley.mottley@hotmail.com]</li>
-     <li>- 🔗 Visit my website ▻  <a href="https://dmotts.github.io/portfolio">daleymottley.com</a></li>
-     
-   </ul>
+      <li>- 🤔 Estoy buscando colaborar en <strong>proyectos de Inteligencia Artificial</strong></li>
+      <li>- 💬 Pregúntame sobre <strong>automatización de flujos de trabajo</strong></li>
+      <li>- 🌱 Actualmente estoy aprendiendo <strong>aprendizaje automático</strong></li>
+      <li>- 📫 Cómo contactarme:  [daley.mottley@hotmail.com]</li>
+      <li>- 🔗 Visita mi sitio web ▻ <a href="https://dmotts.github.io/portafolio">daleymottley.com</a></li>
+    </ul>
   </div>
+</div>
