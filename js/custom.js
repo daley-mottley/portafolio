@@ -136,14 +136,14 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         // Handle the placeholder message display
         let messageTextarea = document.getElementById('message');
         if (response.ok) {
-            messageTextarea.placeholder = 'Your message has been sent successfully!';
+            messageTextarea.placeholder = '¡Su mensaje ha sido enviado exitosamente!';
             document.getElementById('contactForm').reset();
         } else {
             response.json().then(data => {
                 if (data.errors) {
                     messageTextarea.placeholder = data.errors.map(error => error.message).join('\n');
                 } else {
-                    messageTextarea.placeholder = 'Oops! Something went wrong. Please try again later.';
+                    messageTextarea.placeholder = '¡Algo salió mal! Por favor, inténtalo de nuevo más tarde.';
                 }
             });
         }
@@ -156,7 +156,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 
         // Display error message in the placeholder
         let messageTextarea = document.getElementById('message');
-        messageTextarea.placeholder = 'Oops! There was a problem submitting your form. Please try again.';
+        messageTextarea.placeholder = 'Hubo un problema al enviar tu formulario. Inténtalo nuevamente.;
     });
 });
 // Function to insert spaces to adjust line breaks
@@ -206,7 +206,7 @@ const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
             const textarea = entry.target;
-            const originalText = "Do you have a great idea on your mind or need help overcoming challenges in your business?\n\nSend me a message and let's chat!";
+            const originalText = "¿Tiene una gran idea en mente o necesita ayuda para superar los desafíos en su negocio??\n\n¡Envíame un mensaje y charlemos!";
             const adjustedText = adjustPlaceholderText(originalText, textarea);
             textarea.placeholder = ''; // Clear the placeholder
             typeWriter(adjustedText, textarea); // Start typing animation
