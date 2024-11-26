@@ -345,6 +345,10 @@ body.offcanvas #colorlib-aside,
     color: var(--text-color)
 }
 
+.cardProject__information h3 {
+    text-transform: capitalize;
+}
+
 .cardProject_skills {
     width: 100%;
     display: flex;
