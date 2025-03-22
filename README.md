@@ -7,7 +7,7 @@
       <li>- 💬 Pregúntame sobre <strong>automatización de flujos de trabajo</strong></li>
       <li>- 🌱 Actualmente estoy aprendiendo <strong>aprendizaje automático</strong></li>
       <li>- 📫 Cómo contactarme:  [daley.mottley@hotmail.com]</li>
-      <li>- 🔗 Visita mi sitio web ▻ <a href="https://dmotts.github.io/portafolio">es.daleymottley.com</a></li>
+      <li>- 🔗 Visita mi sitio web ▻ <a href="https://daley-mottley.github.io/portafolio">es.daleymottley.com</a></li>
     </ul>
   </div>
 </div>
